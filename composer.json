@@ -1,0 +1,24 @@
+{
+    "name": "eeyet/domain",
+    "description": "domain modeling training with php",
+    "type": "project",
+    "license": "FREE",
+    "authors": [
+        {
+            "name": "dixonnixon",
+            "email": "drenb@ukr.net"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "autoload": {
+        "psr-4": {
+            "" : "src/libs/entities"
+        }
+    }
+
+}
